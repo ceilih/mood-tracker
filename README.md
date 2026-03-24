@@ -22,11 +22,9 @@ Within the 'lib' folder, open the 'main.dart' file.
 From here you can use the 'run' button or ctrl + F5 to run the program.
 
 
-## Future Developments:
+### Future Developments:
 - after entry submitted, return to calendar page
 - make delete possible
-- make "update" clearly accessible
-- add location feature
-- considering adding the ability to add multiple entries per day - in which case the color on the calendar would likely reflect the most recent input
+- make "update" an actual button, currently - will replace entry entered on date with existing entry
 
 
