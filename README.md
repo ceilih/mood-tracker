@@ -20,11 +20,8 @@ flutter pub get
 Within the 'lib' folder, open the 'main.dart' file.
 
 From here you can use the 'run' button or ctrl + F5 to run the program.
-
-
-
-
-
+<br/>
+<br/>
 
 ### Future Developments:
 - after entry submitted, return to calendar page
