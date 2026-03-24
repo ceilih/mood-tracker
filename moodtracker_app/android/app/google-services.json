@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "875026129881",
+    "project_id": "dmit2504-1251",
+    "storage_bucket": "dmit2504-1251.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875026129881:android:a8e2f0c4feac29e14aafc8",
+        "android_client_info": {
+          "package_name": "com.example.dmit2504_1251"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPAzXoUvlmG5F9enGutgHIy63jinpxDWk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875026129881:android:7749cc1bde6f75de4aafc8",
+        "android_client_info": {
+          "package_name": "com.example.moodtracker_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPAzXoUvlmG5F9enGutgHIy63jinpxDWk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
