@@ -1,17 +1,4 @@
-//thinking: stateful homescreen
 //contains: bottom navigation and display of either calendar, mood entry, or profile widget
-
-//what the hell is happening in the main then
-//probably just the route generation at this point
-
-//if widgets used for calendar/entry/profile - only screen is login + home - navigation only between the two
-
-//display calendar
-
-//display bottom nav -> on tap of element on bottom nav, change displayed widget
-
-//need some sort of variable for displayWidget
-
 
 import 'package:flutter/material.dart';
 import 'package:moodtracker_app/app_state.dart';
