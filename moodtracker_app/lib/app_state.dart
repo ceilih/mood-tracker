@@ -3,8 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:moodtracker_app/models/mood_entry.dart';
 import 'package:firebase_ui_auth/firebase_ui_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
-//this says import everything but emailauthprovider so that it does not conflict
-//with firebase ui auth
 import 'package:firebase_auth/firebase_auth.dart' hide EmailAuthProvider;
 import 'firebase_options.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
@@ -16,8 +14,6 @@ class ApplicationState extends ChangeNotifier {
 
   //USER/LOGIN INFO
   bool _loggedIn = false;
-  //This is in notes: isloggedin does not appear or is referenced otherwise - what does it do?
-  //should just be setting loggedin value based on init (?)
   bool get isLoggedIn => _loggedIn;
 
   User? _currentUser;
@@ -25,14 +21,12 @@ class ApplicationState extends ChangeNotifier {
 
   set user(User? user) {
     if (user == null) {
-      //consider making this error message more user friendly?
       throw ArgumentError('Cannot set user to null');
     }
     _currentUser = user;
   }
 
   //MOOD MANAGEMENT
-
   List<MoodEntry>? _moodList;
 
   List<MoodEntry>? get moodList {
@@ -133,7 +127,7 @@ class ApplicationState extends ChangeNotifier {
       } else {
         _loggedIn = false;
       }
-      //need this to pass on that the change has happened
+      //pass on that the change has happened
       notifyListeners();
     });
   }
