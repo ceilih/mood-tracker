@@ -5,7 +5,7 @@ This project was created using dart and flutter and is a mobile application.
 
 This app was built using Firebase Authentication and a Firestore Database, with the intention of keeping the app itself light weight and preventing possible data loss. 
 
-The app was inspired by an idea I've had for some time, and brought to life as a final project for my Android Development class.
+The app was inspired by an idea I've had for some time, and brought to life as a final project for my Android Development class. In this project, the code can be found in the lib file.
 
 ## Setup
 In order to run the application you will require a connected android device or an android device emulator.
