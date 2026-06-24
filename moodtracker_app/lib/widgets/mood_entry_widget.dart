@@ -15,7 +15,6 @@ class _MoodEntryWidgetState extends State<MoodEntryWidget> {
   final _formkey = GlobalKey<FormState>();
 
   final _moodController = TextEditingController();
-  //does this need to be some sort of DatePickerController(); ?
   final _dateController = TextEditingController();
   final _notesController = TextEditingController();
 
